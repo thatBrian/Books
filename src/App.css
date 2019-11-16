@@ -1,22 +1,97 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
+  display:flex;
+  flex-direction:column;
+  color: #333333;
+}
+a{
+  text-decoration:none;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: #333333;
+}
+#navbar {
+  height: 60px;
+  background-color: #fff;
   display: flex;
-  flex-direction: column;
+  padding: 10px;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
+}
+#navitem{
+  margin-left:20px;
+}
+#title {
+  margin-left: 20px;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: #333333;
 }
 
-.App-link {
-  color: #09d3ac;
+#grower {
+  flex: 1
+}
+
+#logo {
+  height: 60px;
+  width: 60px;
+}
+#content{
+  flex:1;
+  display:flex;
+}
+#landing{
+  display:flex;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+  background: #2b303b;
+}
+#landing h1{
+  color:#fff
+}
+.search-container{
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+.search-container  input#search{
+  width: 50vw;
+  height: 50px;
+  background: #ffffff;
+  border: none;
+  font-size: 10pt;
+  color: #63717f;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.search-container input#search::-webkit-input-placeholder {
+  color: #65737e;
+}
+
+.search-container input#search:-moz-placeholder { /* Firefox 18- */
+  color: #65737e;  
+}
+.search-container input#search::-moz-placeholder {  /* Firefox 19+ */
+  color: #65737e;  
+}
+.search-container input#search:-ms-input-placeholder {  
+  color: #65737e;  
+}
+.search-container .icon{
+  height:25px;
+  margin:12.5px;
+  position: absolute;
+  z-index: 1;
+  color: #4f5b66;
+}
+#search-title{
+  font-size:3em;
+}
+#subtext{
+  color:white;
+  margin:20px;
 }
