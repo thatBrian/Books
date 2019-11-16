@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default class Profile extends Component {
     render() {
         return (
-            <div>
+            <div id="landing">
                 Profile
             </div>
         )
