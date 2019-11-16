@@ -204,3 +204,12 @@ a{
   font-size:15px;
   color:lightgrey;
 }
+.profileLanding{
+  background-color:#333333;
+  width:100%;
+}
+#profile{
+  background:white;
+  flex:1 1 auto;
+  margin:30px;
+}
