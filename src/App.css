@@ -207,9 +207,39 @@ a{
 .profileLanding{
   background-color:#333333;
   width:100%;
+  overflow-y:scroll;
+  padding:30px;
+}
+#profilePadder{
+  flex:1 1 auto;
+  height:100%;
+  justify-content: center;
+  align-items: center;  
+  display:flex;
 }
 #profile{
-  background:white;
-  flex:1 1 auto;
-  margin:30px;
+  height:100%;
+  width:100%;
+  background-color:white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  display:flex;
+  flex-direction:column;
+}
+
+.row{
+  flex:1;
+  flex-direction:row;
+}
+#profileWelcome{
+  color:#333333 !important;
+}
+
+#profileBooks{
+  flex:1;
+}
+
+#listings{
+  flex:1;
 }
