@@ -12,7 +12,7 @@ export default class Search extends Component {
                     <input autoComplete="off" type="search" id="search" placeholder="Search... (ISBN)"></input>
                 </div>
                 <div id="searchBody">
-                <div id="bookItem">
+                    <div id="bookItem">
                         <div>
                             <div>
                                 <div id="bookTitle">

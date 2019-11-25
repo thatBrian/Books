@@ -229,8 +229,8 @@ a{
 }
 
 .row{
-  flex:1;
-  flex-direction:row;
+  display:flex;
+  height:100%;
 }
 #profileWelcome{
   color:#333333 !important;
@@ -242,4 +242,52 @@ a{
 
 #listings{
   flex:1;
+}
+
+
+
+#listingBody{
+  margin:auto;
+  background:white;
+  margin-top:40px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border-style:solid;
+  border-color:lightgrey;
+  border-width:0.5px;
+  margin:20px;
+}
+
+#listItem {
+  padding:20px;
+  text-align:left;
+  border-bottom-color:lightgrey;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+}
+#listItem:hover{
+  cursor: pointer;
+}
+#listItem > div{
+  display:flex;
+  margin-bottom:20px;
+  
+}
+
+#statusNew{
+  color:green;
+  font-size:0.8rem;
+}
+#right{
+  color:grey;
+  text-align:right;
+}
+#listingTitle{
+  font-weight:600;
+  font-size:1.1rem;
+}
+
+#locationIcon{
+  height:15px;
 }
